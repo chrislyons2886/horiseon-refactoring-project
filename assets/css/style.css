@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* removed header class and replaced with header element*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +16,18 @@ header {
     color: #ffffff;
 }
 
+/* removed header class and replaced with h1 element*/
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*removed class seo and added id seo*/
 #seo {
     color: #d9dcd6;
 }
 
+/* changed element div to nav*/
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,6 +36,7 @@ nav {
     font-size: 20px;
 }
 
+/*removed ul and added properties under li*/
 li {
     list-style-type: none;
     display: inline-block;
