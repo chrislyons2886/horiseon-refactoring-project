@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* removed header class and replaced with header element*/
+/* removed class header and replaced with header element*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,7 +16,7 @@ header {
     color: #ffffff;
 }
 
-/* removed header class and replaced with h1 element*/
+/* removed class header and replaced with h1 element*/
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -52,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/*--added alt text-->*/
 .hero {
     height: 800px;
     width: 100%;
@@ -189,8 +190,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.footer {
+/*removed class footer and replaced with element footer*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
