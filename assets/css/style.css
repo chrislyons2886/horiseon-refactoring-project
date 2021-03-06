@@ -61,40 +61,15 @@ p {
     background-position: center;
 }
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-/*combined benefit-type categories*/
-
-.benefit-type {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-.benefit-type h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-.benefit-type img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
- /*combined content */
+ /*combined content-type */
  
-.content-type {
+ .content-type {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -112,6 +87,7 @@ p {
     font-size: 36px;
 }
 
+
 .float-left{
     float: left;
     margin-right: 25px;
@@ -120,6 +96,34 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
+}
+
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*combined benefit-type categories*/
+
+.benefit-type {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+.benefit-type h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.benefit-type img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 /*removed class footer and replaced with type footer*/
