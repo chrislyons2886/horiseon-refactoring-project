@@ -37,18 +37,18 @@ nav {
 }
 
 /*removed ul and added properties under li*/
-nav > li {
+li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
-nav > a {
+li a {
     color: #ffffff;
     text-decoration: none;
 }
 
-nav > p {
+li p {
     font-size: 16px;
 }
 
