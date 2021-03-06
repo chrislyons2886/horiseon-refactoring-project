@@ -37,18 +37,18 @@ nav {
 }
 
 /*removed ul and added properties under li*/
-li {
+nav > li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+nav > a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
+nav > p {
     font-size: 16px;
 }
 
@@ -107,6 +107,11 @@ p {
     max-height: 200px;
 }
 
+.content-type h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .float-left{
     float: left;
     margin-right: 25px;
@@ -115,10 +120,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-.content-type h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /*removed class footer and replaced with type footer*/
